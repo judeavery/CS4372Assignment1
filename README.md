@@ -43,7 +43,7 @@ df = pd.read_csv(url)
 df.head()
 
 
-How to Run
+## How to Run
 1. Open Notebook in Google Colab
 
 Go to Google Colab
