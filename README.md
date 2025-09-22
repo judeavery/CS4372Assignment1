@@ -33,3 +33,78 @@ import pandas as pd
 url = "https://raw.githubusercontent.com/judeavery/CS4372Assignment1/main/data/day.csv"
 df = pd.read_csv(url)
 df.head()
+```
+
+CS4372Assignment1/
+│
+├── data/                <- Datasets
+│   ├── day.csv
+│   └── hour.csv
+│
+├── notebooks/           <- Google Colab/Jupyter notebooks
+│   └── main_analysis.ipynb
+│
+├── plots/               <- Saved plots and visualizations
+│
+├── report/              <- Final report
+│
+├── README.md
+└── requirements.txt
+
+How to Run
+
+Open the notebook in Google Colab:
+
+Go to Colab → File → Open Notebook → GitHub
+
+Paste this repository URL:
+
+https://github.com/judeavery/CS4372Assignment1
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Run the notebook step-by-step to reproduce the results.
+
+Dependencies
+
+Install required libraries with:
+
+pip install -r requirements.txt
+
+
+Libraries included:
+
+pandas
+
+numpy
+
+matplotlib
+
+seaborn
+
+scikit-learn
+
+statsmodels
+
+Project Goal
+
+The purpose of this assignment is to:
+
+Understand and clean real-world data.
+
+Build two regression models and compare their performance.
+
+Interpret model results and explain findings in a clear report.
+
+Author
+
+Jude Avery
+University of Texas at Dallas
+
+
+---
+
